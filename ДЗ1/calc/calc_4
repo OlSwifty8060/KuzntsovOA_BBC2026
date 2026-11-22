@@ -1,0 +1,13 @@
+
+def main():
+    print("Введи свои данные, и я посчитаю ИМТ и идеальный вес.\n")
+
+    weight = get_number("Введи вес (кг): ")
+    height = get_number("Введи рост (см): ")
+
+    calc = Calc(weight, height)
+    calc.show()
+if __name__=="__main__":
+    main()
+
+
