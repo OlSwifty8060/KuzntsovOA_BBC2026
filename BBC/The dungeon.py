@@ -219,6 +219,3 @@ def main():
             else:
                 print("Дверь заперта. Найдите ключ!")
 
-
-if __name__ == "__main__":
-    main()
